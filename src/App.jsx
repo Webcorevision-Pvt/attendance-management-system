@@ -1,9 +1,11 @@
-import LoginPage from "./assets/Components/LoginPage"
+import Home from "./Components/Home"
+
 function App() {
+  
+
   return (
     <>
-      
-        <LoginPage/>
+      <Home/>
     </>
   )
 }
