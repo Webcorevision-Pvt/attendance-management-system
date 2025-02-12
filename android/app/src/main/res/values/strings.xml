@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">attendancehome</string>
+    <string name="title_activity_main">attendancehome</string>
+    <string name="package_name">com.Webcorevision.com</string>
+    <string name="custom_url_scheme">com.Webcorevision.com</string>
+</resources>
