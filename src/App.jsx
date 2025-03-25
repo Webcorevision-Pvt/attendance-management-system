@@ -1,18 +1,22 @@
-import Home from "./Components/Home"
-import Home2 from "./Components/Home2"
-import Camera from "./Components/Camera"
-function App() {
-  
+import Navbar from "./Components/Navbar"
+import Hero from "./Components/Hero"
+import OverviewCounter from "./Components/OverviewCounter"
+import BannerDetails from "./Components/BannerDetails"
+import SimpleBanner from "./Components/SimpleBanner"
+import Blogs from "./Components/Blogs"
+import Footer from "./Components/Footer"
 
+function App() {
   return (
     <>
-      {/* <Home/> */}
-      {/* <Home2/> */}
-      <div>
-      <h1>Take a Picture</h1>
-      <Camera/>
-    </div>
-
+       <Navbar/>
+       <Hero/>
+       <OverviewCounter/>
+       <BannerDetails/>
+       <BannerDetails reverse={true}/>
+       <SimpleBanner/>
+       <Blogs/>
+       <Footer/>
     </>
   )
 }
